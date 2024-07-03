@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Google } from "lucide-react";
+import { LogIn } from "lucide-react";
 
 const Join = () => {
   const [mobileNumber, setMobileNumber] = useState("");
@@ -44,7 +44,7 @@ const Join = () => {
             <span className="text-gray-500">or</span>
           </div>
           <Button onClick={handleGoogleSignIn} className="w-full flex items-center justify-center space-x-2">
-            <Google className="h-5 w-5" />
+            <LogIn className="h-5 w-5" />
             <span>Sign In with Google</span>
           </Button>
         </CardContent>
