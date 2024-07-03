@@ -7,6 +7,7 @@ import Layout from "./layouts/default"; // available: default, navbar, sidebar
 import Index from "./pages/Index.jsx";
 import Join from "./pages/Join.jsx";
 import UserDetails from "./pages/UserDetails.jsx";
+import Certify from "./pages/Certify.jsx";
 const queryClient = new QueryClient();
 
 export const navItems = [
@@ -28,6 +29,7 @@ const App = () => {
               <Route index element={<Index />} />
               <Route path="/join" element={<Join />} />
               <Route path="/user-details" element={<UserDetails />} />
+              <Route path="/certify" element={<Certify />} />
               {/* Add more routes here as needed */}
             </Route>
           </Routes>
