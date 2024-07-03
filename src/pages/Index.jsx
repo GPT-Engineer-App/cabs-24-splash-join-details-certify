@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Loader } from "@/components/Loader";
+import { Loader } from "@/components/ui/loader";
 
 const Index = () => {
   const [loading, setLoading] = useState(true);
